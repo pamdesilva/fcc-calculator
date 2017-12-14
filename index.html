@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>JavaScript Calculator</title>
+
+  <!-- CSS + Fonts + Icons -->
+  <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:400,600" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+</head>
+
+<body>
+
+  <h1>JavaScript Calculator</h1>
+
+  <div id="calculator">
+    <div id="inner">
+      <div id="output-display" value="0" class="container"></div>
+      <div id="btn-pad" class="container">
+        <div class="row">
+          <input type="button" id="clear" class="btn col-4" value="AC">
+          <input type="button" id="delete" class="btn run col-3" value="C">
+          <input type="button" id="divide" class="opr btn run col-2" value="/">
+        </div>
+        <div class="row">
+          <input type="button" class="number btn col-2" value="7">
+          <input type="button" class="number btn col-2" value="8">
+          <input type="button" class="number btn col-2" value="9">
+          <input type="button" class="opr btn run col-2" id="multiply" value="x">
+        </div>
+        <div class="row">
+          <input type="button" class="number btn col-2" value="4">
+          <input type="button" class="number btn col-2" value="5">
+          <input type="button" class="number btn col-2" value="6">
+          <input type="button" class="opr btn run col-2" id="subtract" value="-">
+        </div>
+        <div class="row">
+          <input type="button" class="number btn col-2" value="1">
+          <input type="button" class="number btn col-2" value="2">
+          <input type="button" class="number btn col-2" value="3">
+          <input type="button" class="opr btn run col-2" id="add" value="+">
+        </div>
+        <div class="row">
+          <input type="button" class="number btn col-2" value="0">
+          <input type="button" class="number btn col-2" id="decimal" value=".">
+          <input type="button" class="btn run eq col-5" id="equals" value="=">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid text-center mt-3 footer">
+    <p>Made by <a href="http://pamela.io" target="blank">Pam De Silva</a> for  <a href="http://www.freecodecamp.com" target="blank">Free Code Camp.</p>
+  </div>
+
+
+  <!-- JavaScript Files -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="./app.js"></script>
+
+
+</body>
+
+</html>
