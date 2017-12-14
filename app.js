@@ -33,7 +33,7 @@ $(document).ready(function() {
 		oprPress(true);
 	});
 
-  // Add number on display to variables and perform calculation
+	// Add number on display to variables and perform calculation
 	$('.opr').click(function() {
 		display.html('');
 		if (state === 'num') {
@@ -58,7 +58,7 @@ $(document).ready(function() {
 
 	});
 
-  // Display sum when equals button is pressed
+	// Display sum when equals button is pressed
 	$('#equals').click(function() {
 		if (state === 'num') {
 			if (value1 !== null) {
@@ -69,7 +69,7 @@ $(document).ready(function() {
 
 	});
 
-  // Calculate sum
+	// Calculate sum
 	function calculate() {
 		value2 = parseFloat(curNum);
 		curNum = '';
@@ -80,7 +80,7 @@ $(document).ready(function() {
 		clearOnNextNumberPress == true;
 	}
 
-  // Define what each operator does
+	// Define what each operator does
 	function operation(val1, val2, opr) {
 		switch (opr) {
 			case '+':
@@ -98,7 +98,7 @@ $(document).ready(function() {
 		}
 	}
 
-  // Clear display when new number is pressed
+	// Clear display when new number is pressed
 	function clearIfNewNum() {
 		if (clearOnNextNumberPress == true) {
 			display.html('');
@@ -106,7 +106,7 @@ $(document).ready(function() {
 		}
 	}
 
-  // Disable operator buttons
+	// Disable operator buttons
 	function oprPress(x) {
 		if (x == false) {
 			$('.run').attr('disabled', 'disabled');

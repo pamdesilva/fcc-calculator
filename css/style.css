@@ -80,8 +80,8 @@ h1 {
   color: #4A4A48;
   font-size: .5em;
   margin: auto;
-  padding-top:.5em;
-  box-shadow: 2px -4px 10px rgba(0,0,0,0.2);
+  padding-top: .5em;
+  box-shadow: 2px -4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .footer a {
