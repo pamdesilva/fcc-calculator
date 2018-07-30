@@ -1,5 +1,5 @@
-# JavaScript Calculator
+# JavaScript Calculator ➕➖➗✖️
 
-#### Project 1 of the Advanced Front End Development Projects on FreeCodeCamp
+A basic calculator that does additions, subtractions, multiplications and divisions. [View demo](http://pamela.io/fcc-calculator/).
 
-A basic calculator built with Javascript.
+Written in HTML, CSS & Javascript.
